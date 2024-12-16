@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --Green: hsl(75, 94%, 57%);
+      --White: hsl(0, 0%, 100%);
+      --Grey-700: hsl(0, 0%, 20%);
+      --Grey-800: hsl(0, 0%, 12%);
+      --Grey-900: hsl(0, 0%, 8%);
+    }
+    
+    html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1440px;
+      height: 100vh;
+      font-size: 14px;
+      font-family: Inter;
+      background-color: var(--Grey-900);
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      min-width: 300px;
+      background-color: var(--Grey-800);
+      align-items: center;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 100%;
+    }
+
+    h1 {
+      color: var(--White);
+    }
+
+    p.address {
+      color: var(--Green);
+    }
+
+    p.detail {
+      color: var(--Grey-700);
+    }
+
+    button {
+      width: 100%;
+      height: 50px;
+      background-color: var(--Grey-700);
+      color: var(--White);
+      border-radius: 10px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      border: none;
+    }
+
+    button:hover {
+      background-color: var(--Green);
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="">
+    <h1>Jessica randall</h1>
+    <p class="address">London, United Kingdom</p>
+    <p class="detail">"Front-end developer and avid reader</p>
+    <button>Github</button>
+    <button>Frontend Mentor</button>
+    <button>Linkedln</button>
+    <button>Twitter</button>
+    <button>Instagram</button>
+  </div>
+</body>
+</html>
